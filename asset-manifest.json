@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/meghanar121/D3js-react/static/css/main.29aa2d90.chunk.css",
+    "main.js": "/meghanar121/D3js-react/static/js/main.834d4b18.chunk.js",
+    "main.js.map": "/meghanar121/D3js-react/static/js/main.834d4b18.chunk.js.map",
+    "runtime-main.js": "/meghanar121/D3js-react/static/js/runtime-main.2b730706.js",
+    "runtime-main.js.map": "/meghanar121/D3js-react/static/js/runtime-main.2b730706.js.map",
+    "static/js/2.b9ffe20f.chunk.js": "/meghanar121/D3js-react/static/js/2.b9ffe20f.chunk.js",
+    "static/js/2.b9ffe20f.chunk.js.map": "/meghanar121/D3js-react/static/js/2.b9ffe20f.chunk.js.map",
+    "index.html": "/meghanar121/D3js-react/index.html",
+    "precache-manifest.1caf5394a9e8bc62793858c5a4198414.js": "/meghanar121/D3js-react/precache-manifest.1caf5394a9e8bc62793858c5a4198414.js",
+    "service-worker.js": "/meghanar121/D3js-react/service-worker.js",
+    "static/css/main.29aa2d90.chunk.css.map": "/meghanar121/D3js-react/static/css/main.29aa2d90.chunk.css.map",
+    "static/js/2.b9ffe20f.chunk.js.LICENSE.txt": "/meghanar121/D3js-react/static/js/2.b9ffe20f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b730706.js",
+    "static/js/2.b9ffe20f.chunk.js",
+    "static/css/main.29aa2d90.chunk.css",
+    "static/js/main.834d4b18.chunk.js"
+  ]
+}
