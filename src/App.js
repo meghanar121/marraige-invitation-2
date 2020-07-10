@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import D3 from './D3'
 class App extends Component {
+   
    render() {
    return (
       <div className='App'>
@@ -9,7 +10,7 @@ class App extends Component {
       <h2>d3 dashboard</h2>
       </div>
       <div>
-      <D3 data={[5,9,1,3,9,8,5,3,1]} size={[500,500]} />
+      <D3 data={[12, 31, 22, 17, 25, 18, 29, 14, 9]} size={[500,500]} />
       </div>
       </div>
    )

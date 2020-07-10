@@ -10,6 +10,10 @@ class D3 extends Component {
    }
    componentDidMount() {
       this.createBarChart()
+      // fetch('https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/GDP-data.json')
+      // .then(Response => Response.json())
+      // .then(data => this.setState({data}));
+      // console.log(this.props.data)
    }
    componentDidUpdate() {
       this.createBarChart()
@@ -36,10 +40,22 @@ class D3 extends Component {
       .selectAll('rect')
       .data(this.props.data)
       .style('fill', '#fe9922')
-      .attr('x', (d,i) => i * 25)
+      .attr('x', (d,i) => i * 40)
       .attr('y', d => this.props.size[1]-yScale(d))
       .attr('height', d => yScale(d))
-      .attr('width', 25)
+      .attr('width', 35)
+      .append("title")
+      .text((d)=>d)
+
+   select(node)
+   .selectAll('text')
+   .data(this.props.data)
+   .enter()
+   .append('text')
+   .attr("x", (d, i) => i * 40)
+   .attr("y", (d, i) => 500 - yScale(d) )
+   .attr("fill", "black")
+   .text((d)=>d)
    }
 render() {
    
